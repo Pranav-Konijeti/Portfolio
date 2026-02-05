@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                </ul>
+                <span class="navbar-text ms-auto">
+                    <i class="bi bi-cpu" style="font-size: 1.5rem; color: #0d6efd;"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">My Technical Projects</h1>
+
+        <div class="accordion" id="projectAccordion">
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Project #1: Dungeon Crawler
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/tree.jpg" class="img-fluid rounded shadow-sm" alt="Dungeon Crawler">
+                            </div>
+                            <div class="col-md-8">
+                                <p>This project involved building several data structures from scratch in order to implement a mini dungeon crawler game.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        Project #2: Space Invaders Cat Edition
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/spaceinvaders.jpg" class="img-fluid rounded shadow-sm" alt="Space Invaders">
+                            </div>
+                            <div class="col-md-8">
+                                <p>This project involved building a space invaders esque game from scratch utilizing Python.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        Project #3: Game of Life - Lion Edition
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <img src="../resources/img/gameoflife.jpg" class="img-fluid rounded shadow-sm" alt="Game of Life">
+                            </div>
+                            <div class="col-md-8">
+                                <p>A C++ project built with a collaborator, making a terminal based Game of Life with a dynamic board implementation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div> 
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            <p class="mb-3">Important Links</p>
+            <div class="d-flex justify-content-center gap-2">
+                <a href="https://www.linkedin.com/in/pranav-konijeti-2aa58529b" target="_blank" class="text-primary text-decoration-none">
+                    <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                </a>            
+                <a href="https://github.com/Pranav-Konijeti" target="_blank" class="text-dark text-decoration-none">
+                    <i class="bi bi-github" style="font-size: 2rem;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
